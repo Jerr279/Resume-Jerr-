@@ -12,7 +12,7 @@ h1 {
     font-size: 3em;
     letter-spacing: .6em;
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 0em;
 }
 
 h2 {
@@ -78,6 +78,22 @@ a:hover {
     color: white;
 }
 
-@media only screen and(max-width: 1080px) {
+@media only screen and(max-width: 960px) {
+    #mainLeft {
+        margin-left: 10%;
+        border-right: 1px solid lightgray;
+    }
+    #mainRight {
+        margin-left: 20px;
+    }
+    h1 {
+        font-size: 2em;
+        letter-spacing: .1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    #mainLeft {
+        border: none;
+    }
     
 }
