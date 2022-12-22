@@ -9,6 +9,7 @@ body{
     font-family: 'roboto', sans-serif;
     margin: 0;
     padding: 0;
+    color: whitesmoke;
 }
 .navbar{
     background-color: var(--orange1);
@@ -56,5 +57,41 @@ body{
 .footer img{
     float: left;
     display: block;
-    width: 2.5%;
+}
+.logo {
+    float: left;
+    display: block;
+    width: 3%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 14px;
+    }
+    .logo {
+        height: 100%;
+        width: 11%;
+    }
+}
+
+@media only screen and(max-width: 960px) {
+    #mainLeft {
+        margin-left: 10%;
+        border-right: 1px solid lightgray;
+    }
+    #mainRight {
+        margin-left: 20px;
+    }
+    h1 {
+        font-size: 2em;
+        letter-spacing: .1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
+    #mainLeft {
+        border: none;
+    }
+    
 }

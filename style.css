@@ -77,6 +77,24 @@ a:hover {
     box-shadow: inset 210px 0 0 0 #54b3d6;
     color: white;
 }
+@media screen and (max-width: 800px) {
+    h2{
+        font-size: 1.1em;
+    }
+    a{
+        font-size:.9em;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    #mainLeft {
+        border-right: none;
+    }
+    #mainRight {
+
+        border-left: none;
+    }
+}
 
 @media only screen and(max-width: 960px) {
     #mainLeft {
